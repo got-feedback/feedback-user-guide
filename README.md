@@ -1,5 +1,7 @@
 # FeedBack User Guide
 
+📖 **Live guide:** https://got-feedback.github.io/feedback-user-guide/
+
 Public user-guide wiki for FeedBack.
 
 This repo contains launch-ready documentation bones for the FeedBack 0.3.0 user guide. The content is written as portable Markdown so it can be handed to design and moved into MkDocs, DokuWiki, MediaWiki, or a custom site with minimal rewriting.
