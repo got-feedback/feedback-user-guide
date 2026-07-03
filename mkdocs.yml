@@ -25,6 +25,7 @@ nav:
       - Windows: install/windows.md
       - macOS: install/macos.md
       - Linux: install/linux.md
+      - First Launch: install/first-launch.md
       - Updating FeedBack: install/updating.md
   - First-Time Setup:
       - Audio Input Setup: first-run/audio-input.md
@@ -50,23 +51,47 @@ nav:
       - Note Detection: plugins/note-detection.md
       - Tab View: plugins/tab-view.md
       - Fretboard View: plugins/fretboard.md
+      - Jumping Tab: plugins/jumping-tab.md
+      - Highway 3D: plugins/highway-3d.md
+      - Drum Highway: plugins/drum-highway.md
+      - Piano and Keys Highway: plugins/piano-keys-highway.md
       - Metronome: plugins/metronome.md
       - Stems and Stem Mixer: plugins/stems.md
       - Lyrics: plugins/lyrics.md
       - NAM Tone: plugins/nam-tone.md
+      - Studio: plugins/studio.md
+      - Rig Builder: plugins/rig-builder.md
+      - Setlist: plugins/setlist.md
+      - Song Preview: plugins/song-preview.md
+      - Step Mode: plugins/step-mode.md
+      - Practice: plugins/practice.md
+      - Guitar Theory: plugins/guitar-theory.md
+      - Find More: plugins/find-more.md
+      - Themes: plugins/themes.md
+      - Splitscreen: plugins/splitscreen.md
       - Update Manager: plugins/update-manager.md
       - Plugin Directory: plugins/directory.md
   - Desktop Audio:
       - Overview: desktop-audio/index.md
+      - ASIO, WASAPI, and CoreAudio: desktop-audio/driver-types.md
       - Streamer Mix Outputs: desktop-audio/streamer-mix-outputs.md
   - Song Files and feedpak:
       - What Is a feedpak?: feedpak/index.md
       - Authoring and Editing: feedpak/authoring.md
+      - Validating feedpak Files: feedpak/validation.md
   - Troubleshooting:
       - Audio Input Problems: troubleshooting/audio-input.md
+      - No Signal: troubleshooting/no-signal.md
       - Library Problems: troubleshooting/library.md
       - Calibration Problems: troubleshooting/calibration.md
+      - Playback Problems: troubleshooting/playback.md
+      - Plugin Problems: troubleshooting/plugins.md
+      - Desktop Install Problems: troubleshooting/desktop-install.md
       - Reporting an Issue: troubleshooting/report-issue.md
+  - Advanced Users:
+      - Demucs Server: advanced/demucs-server.md
+      - Local Files and Backups: advanced/local-files-backups.md
+      - Running the Web App: advanced/running-web-app.md
   - Releases and Updates:
       - 0.3.0 Notes: releases/0-3-0.md
       - Known Limitations: releases/known-limitations.md
