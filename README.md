@@ -1,6 +1,6 @@
 # FeedBack User Guide
 
-📖 **Live guide:** https://got-feedback.github.io/feedback-user-guide/
+📖 **Live guide:** https://got-feedBack.github.io/feedBack-user-guide/
 
 Public user-guide wiki for FeedBack.
 
