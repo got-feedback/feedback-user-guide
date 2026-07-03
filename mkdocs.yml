@@ -1,0 +1,70 @@
+site_name: FeedBack User Guide
+site_description: Public user guide and wiki for FeedBack
+repo_url: https://github.com/got-feedback/feedback-user-guide
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Quick Start: quick-start.md
+      - What FeedBack Is: getting-started/what-feedback-is.md
+      - Common Terms: getting-started/common-terms.md
+  - Installing FeedBack:
+      - Install FeedBack Desktop: install/index.md
+      - Windows: install/windows.md
+      - macOS: install/macos.md
+      - Linux: install/linux.md
+      - Updating FeedBack: install/updating.md
+  - First-Time Setup:
+      - Audio Input Setup: first-run/audio-input.md
+      - Calibration: first-run/calibration.md
+      - Export Diagnostics: first-run/export-diagnostics.md
+  - Songs and Library:
+      - Import Songs: songs/import.md
+      - Scan and Rescan: songs/rescan.md
+      - Library Views: songs/library.md
+      - Playlists and Queue: songs/playlists.md
+      - Song Metadata: songs/metadata.md
+  - Playing and Practicing:
+      - Play a Song: play/play-a-song.md
+      - Scoring and Mastery: play/scoring.md
+      - Practice Workflows: play/practice-workflows.md
+  - Tuning, Input, and Calibration:
+      - Tuner: tuning/tuner.md
+      - Audio Devices: tuning/audio-devices.md
+      - Extended-Range Instruments: tuning/extended-range.md
+  - Plugins:
+      - Overview: plugins/index.md
+      - Tuner: plugins/tuner.md
+      - Note Detection: plugins/note-detection.md
+      - Plugin Directory: plugins/directory.md
+  - Desktop Audio:
+      - Overview: desktop-audio/index.md
+      - Streamer Mix Outputs: desktop-audio/streamer-mix-outputs.md
+  - Song Files and feedpak:
+      - What Is a feedpak?: feedpak/index.md
+      - Authoring and Editing: feedpak/authoring.md
+  - Troubleshooting:
+      - Audio Input Problems: troubleshooting/audio-input.md
+      - Library Problems: troubleshooting/library.md
+      - Calibration Problems: troubleshooting/calibration.md
+      - Reporting an Issue: troubleshooting/report-issue.md
+  - Releases and Updates:
+      - 0.3.0 Notes: releases/0-3-0.md
+      - Known Limitations: releases/known-limitations.md
+  - Contributing:
+      - Page Template: contributing/page-template.md
+      - Style Guide: contributing/style-guide.md
+  - A-Z Reference: reference/a-z.md
+
