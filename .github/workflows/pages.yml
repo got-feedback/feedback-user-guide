@@ -29,6 +29,9 @@ jobs:
       - name: Install docs dependencies
         run: pip install mkdocs mkdocs-material
 
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       - name: Build
         run: mkdocs build --strict
 
