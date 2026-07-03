@@ -48,6 +48,13 @@ nav:
       - Overview: plugins/index.md
       - Tuner: plugins/tuner.md
       - Note Detection: plugins/note-detection.md
+      - Tab View: plugins/tab-view.md
+      - Fretboard View: plugins/fretboard.md
+      - Metronome: plugins/metronome.md
+      - Stems and Stem Mixer: plugins/stems.md
+      - Lyrics: plugins/lyrics.md
+      - NAM Tone: plugins/nam-tone.md
+      - Update Manager: plugins/update-manager.md
       - Plugin Directory: plugins/directory.md
   - Desktop Audio:
       - Overview: desktop-audio/index.md
@@ -66,5 +73,5 @@ nav:
   - Contributing:
       - Page Template: contributing/page-template.md
       - Style Guide: contributing/style-guide.md
+      - Design Handoff: contributing/design-handoff.md
   - A-Z Reference: reference/a-z.md
-

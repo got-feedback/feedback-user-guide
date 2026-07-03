@@ -2,6 +2,15 @@
 
 Short answer: playlists are saved groups of songs; the queue controls what plays next.
 
+## Playlist vs Queue
+
+| Term | Meaning |
+|---|---|
+| Playlist | A saved ordered list of songs. |
+| Queue | The current play session: what is playing now and what comes next. |
+| Play all | Start a queue from a playlist, album, or list. |
+| Play next | Insert a song after the current song where supported. |
+
 ## Basic Workflow
 
 1. Open a song card menu.
@@ -16,9 +25,20 @@ Short answer: playlists are saved groups of songs; the queue controls what plays
 - Queue playback should advance through the selected list.
 - Results may appear between songs when scoring is active.
 
-## Stub Notes
+## Adding Songs
 
-This page should be updated once the 0.3.0 playlist/queue UI is final.
+Common entry points:
+
+- Song card action menu.
+- Right-click or context menu where supported.
+- Batch selection.
+- Album or grouped song actions where supported.
+
+## Continuous Playback
+
+When using Play all, FeedBack should move through the queue without requiring you to return to the library after every song. If scoring is active, the result screen may appear between songs and the next song may wait until you dismiss it.
+
+## Design Notes
 
 Screenshot placeholders:
 
@@ -30,4 +50,3 @@ Screenshot placeholders:
 
 - [Play a Song](../play/play-a-song.md)
 - [Library Views](library.md)
-

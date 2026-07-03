@@ -18,6 +18,7 @@ This page is a launch index for search and browsing.
 
 - [FeedBack 0.3.0 Notes](../releases/0-3-0.md)
 - [feedpak](../feedpak/index.md)
+- [Fretboard View](../plugins/fretboard.md)
 
 ## I
 
@@ -31,6 +32,7 @@ This page is a launch index for search and browsing.
 
 ## N
 
+- [NAM Tone](../plugins/nam-tone.md)
 - [Note Detection](../plugins/note-detection.md)
 
 ## P
@@ -48,8 +50,17 @@ This page is a launch index for search and browsing.
 - [Reporting an Issue](../troubleshooting/report-issue.md)
 - [Scan and Rescan](../songs/rescan.md)
 
+## S
+
+- [Stems and Stem Mixer](../plugins/stems.md)
+- [Streamer Mix Outputs](../desktop-audio/streamer-mix-outputs.md)
+
 ## T
 
+- [Tab View](../plugins/tab-view.md)
 - [Tuner](../tuning/tuner.md)
 - [Tuner Plugin](../plugins/tuner.md)
 
+## U
+
+- [Update Manager](../plugins/update-manager.md)
