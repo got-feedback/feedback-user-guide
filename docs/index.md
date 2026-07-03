@@ -6,6 +6,7 @@ Welcome to the FeedBack user guide. This wiki helps you install FeedBack, set up
 
 - [Quick Start](quick-start.md) - get from install to your first song.
 - [Install FeedBack Desktop](install/index.md) - download and launch the desktop app.
+- [FAQ](getting-started/faq.md) - quick answers to common first questions.
 - [Audio Input Setup](first-run/audio-input.md) - choose the input FeedBack should listen to.
 - [Import Songs](songs/import.md) - add song files to your library.
 - [Tuner](tuning/tuner.md) - tune to the current song or a preset.
@@ -22,6 +23,7 @@ Welcome to the FeedBack user guide. This wiki helps you install FeedBack, set up
 | Report a bug | [Reporting an Issue](troubleshooting/report-issue.md) |
 | Learn what a feedpak is | [What Is a feedpak?](feedpak/index.md) |
 | Check requirements | [System Requirements](getting-started/system-requirements.md) |
+| Look up a term | [Glossary](getting-started/common-terms.md) |
 
 ## 0.3.0 Launch Focus
 

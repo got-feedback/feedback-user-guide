@@ -21,7 +21,8 @@ nav:
       - What FeedBack Is: getting-started/what-feedback-is.md
       - System Requirements: getting-started/system-requirements.md
       - Getting Songs: getting-started/getting-songs.md
-      - Common Terms: getting-started/common-terms.md
+      - FAQ: getting-started/faq.md
+      - Glossary: getting-started/common-terms.md
   - Installing FeedBack:
       - Install FeedBack Desktop: install/index.md
       - Windows: install/windows.md

@@ -26,6 +26,7 @@ This page is a launch index for search and browsing.
 
 - [FeedBack 0.3.0 Notes](../releases/0-3-0.md)
 - [feedpak](../feedpak/index.md)
+- [FAQ](../getting-started/faq.md)
 - [Find More](../plugins/find-more.md)
 - [First Launch](../install/first-launch.md)
 - [Fretboard View](../plugins/fretboard.md)
@@ -33,6 +34,7 @@ This page is a launch index for search and browsing.
 ## G
 
 - [Getting Songs](../getting-started/getting-songs.md)
+- [Glossary](../getting-started/common-terms.md)
 - [Guitar Theory](../plugins/guitar-theory.md)
 
 ## H
