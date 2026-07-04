@@ -4,18 +4,22 @@ repo_url: https://github.com/got-feedback/feedback-user-guide
 theme:
   name: material
   palette:
-    - scheme: slate
+    # Auto-switch on the reader's OS preference (from main), with FeedBack
+    # brand colors (black primary / cyan accent) applied to both schemes.
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: black
       accent: cyan
       toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - scheme: default
-      primary: black
-      accent: cyan
-      toggle:
-        icon: material/weather-night
+        icon: material/brightness-7
         name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.sections
     - navigation.indexes
