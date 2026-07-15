@@ -7,7 +7,8 @@ The [Stems and Stem Mixer](stems.md) plugin plays and balances stems. Stem Split
 ## When To Use This
 
 - A song only has a full mix, and you want isolated parts to practice against.
-- You want to mute vocals for karaoke, or solo the drums.
+- You want to remove the part you play — mute the guitar and play it yourself over the rest of the band, or drop the vocals for a karaoke-style backing track.
+- You want to isolate one part instead — solo the drums to hear the groove, or the vocals to learn a line.
 - A song has no lyrics and you want them transcribed from the vocals.
 - A song's lyrics are correct but their timing drifts, and you want them re-aligned.
 
