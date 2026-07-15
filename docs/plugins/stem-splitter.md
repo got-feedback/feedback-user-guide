@@ -7,7 +7,8 @@ The [Stems and Stem Mixer](stems.md) plugin plays and balances stems. Stem Split
 ## When To Use This
 
 - A song only has a full mix, and you want isolated parts to practice against.
-- You want to mute vocals for karaoke, or solo the drums.
+- You want to remove the part you play — mute the guitar and play it yourself over the rest of the band, or drop the vocals for a karaoke-style backing track.
+- You want to isolate one part instead — solo the drums to hear the groove, or the vocals to learn a line.
 - A song has no lyrics and you want them transcribed from the vocals.
 - A song's lyrics are correct but their timing drifts, and you want them re-aligned.
 
@@ -91,6 +92,15 @@ The status chips distinguish **loading** (reading a model you already have from 
 ### Running FeedBack in Docker
 
 If you run the FeedBack app itself in a container, the plugin can't install a server on your host. Instead it offers a **compose snippet** to run the server as a companion container (always shown, recommended), and — only when the Docker socket is already available to the app — a one-click option. GPU is requested only when your Docker setup actually advertises one.
+
+## Caveats and Limitations
+
+Separation is powerful, but it isn't magic. Knowing these up front saves disappointment:
+
+- **Stems are split by instrument type, not by individual part.** A song with a lead *and* a rhythm guitar produces one `guitar` stem containing both — the model can't tell two guitars apart. The same goes for two vocalists, a doubled bass, and so on.
+- **Separation is not lossless.** Isolated stems carry some bleed from other instruments, and re-mixing every stem does not perfectly reconstruct the original. The full mix is always kept in the song for exactly this reason — use it when you need the untouched audio.
+- **Quality depends on the source and the model.** A dense or heavily-processed mix separates less cleanly than a sparse one. Different models trade speed for quality.
+- **The stems a model makes depend on the model.** A 4-stem model gives vocals, drums, bass, and other; a 6-stem model adds guitar and piano. Parts the chosen model doesn't isolate fall into `other`.
 
 ## Common Problems
 
