@@ -37,6 +37,7 @@ Advanced lyric alignment may require vocals audio and a backend alignment servic
 
 ## Related Pages
 
+- [Stem Splitter](stem-splitter.md)
 - [What Is a feedpak?](../feedpak/index.md)
 - [Stems and Stem Mixer](stems.md)
 

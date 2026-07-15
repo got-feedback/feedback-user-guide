@@ -54,6 +54,7 @@ Each plugin card should include:
 
 | Plugin | Purpose | Status | Guide |
 |---|---|---|---|
+| Stem Splitter | Generate stems from a full mix, and transcribe or re-align lyrics. | Available | [Stem Splitter](stem-splitter.md) |
 | Stems | Work with separated song stems. | Available | [Stems and Stem Mixer](stems.md) |
 | Stem Mixer | Mix or balance song stems. | Available | [Stems and Stem Mixer](stems.md) |
 | NAM Tone | Use in-app amp modeling and tone playback. | Available | [NAM Tone](nam-tone.md) |

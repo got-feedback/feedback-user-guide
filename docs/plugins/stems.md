@@ -18,7 +18,7 @@ Stems are separated audio parts such as vocals, drums, bass, guitar, and other. 
 
 ## Stem Availability
 
-Not every song includes stems. Some workflows may use a Demucs server or other separation backend to create stems from a full mix.
+Not every song includes stems. To create stems from a song that only has a full mix, use the [Stem Splitter](stem-splitter.md) plugin.
 
 ## Common Problems
 

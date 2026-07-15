@@ -73,6 +73,7 @@ nav:
       - Drum Highway: plugins/drum-highway.md
       - Piano and Keys Highway: plugins/piano-keys-highway.md
       - Metronome: plugins/metronome.md
+      - Stem Splitter: plugins/stem-splitter.md
       - Stems and Stem Mixer: plugins/stems.md
       - Lyrics: plugins/lyrics.md
       - NAM Tone: plugins/nam-tone.md
