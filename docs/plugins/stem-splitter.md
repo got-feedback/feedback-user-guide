@@ -98,7 +98,7 @@ If you run the FeedBack app itself in a container, the plugin can't install a se
 Separation is powerful, but it isn't magic. Knowing these up front saves disappointment:
 
 - **Stems are split by instrument type, not by individual part.** A song with a lead *and* a rhythm guitar produces one `guitar` stem containing both — the model can't tell two guitars apart. The same goes for two vocalists, a doubled bass, and so on.
-- **Separation is not lossless.** Isolated stems carry some bleed from other instruments, and re-mixing every stem does not perfectly reconstruct the original. The full mix is always kept in the song for exactly this reason — use it when you need the untouched audio.
+- **Separation is not lossless.** Isolated stems carry some bleed from other instruments, and re-mixing every stem does not perfectly reconstruct the original. The full mix is always kept in the song for exactly this reason — the [Stem Mixer](stems.md) plays it automatically whenever every stem is at 100%, so you hear the untouched audio until the moment you actually change the balance.
 - **Quality depends on the source and the model.** A dense or heavily-processed mix separates less cleanly than a sparse one. Different models trade speed for quality.
 - **The stems a model makes depend on the model.** A 4-stem model gives vocals, drums, bass, and other; a 6-stem model adds guitar and piano. Parts the chosen model doesn't isolate fall into `other`.
 
