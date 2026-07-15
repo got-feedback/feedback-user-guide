@@ -25,7 +25,9 @@ When a song includes its original full mix — which every song split in-app kee
 
 The reason for the switch is quality: separation is lossy, so summing the stems back together isn't identical to the original. Playing the real full mix whenever you haven't changed anything means you only pay that small quality cost when you actually want a custom balance.
 
-If a song has no full mix (only separated stems), the mixer simply always plays the stems.
+This works because the feedpak format keeps the original mixdown as a reserved [`full` stem](https://got-feedback.github.io/feedpak-spec/feedpak-v1.html#the-full-stem--the-complete-mixdown): the format strongly recommends retaining it when a song is separated, precisely because separation is lossy and it's the only way to play the song exactly as recorded. Any song split inside FeedBack always keeps it, so this behavior applies automatically.
+
+If a song has no full mix (an older or externally-made pack that dropped it), the mixer simply always plays the separated stems.
 
 ## Stem Availability
 
