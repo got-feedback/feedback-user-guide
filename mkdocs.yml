@@ -77,6 +77,7 @@ nav:
       - Stems and Stem Mixer: plugins/stems.md
       - Lyrics: plugins/lyrics.md
       - NAM Tone: plugins/nam-tone.md
+      - Song Editor: plugins/editor.md
       - Studio: plugins/studio.md
       - Rig Builder: plugins/rig-builder.md
       - Setlist: plugins/setlist.md

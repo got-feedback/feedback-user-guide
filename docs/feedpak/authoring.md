@@ -1,6 +1,13 @@
 # Authoring and Editing feedpak Files
 
-Short answer: advanced users can author or edit feedpak files by changing the manifest and related data files.
+Short answer: most authoring is easiest in the **[Song Editor](../plugins/editor.md)**;
+advanced users can also edit feedpak files by hand by changing the manifest and
+related data files.
+
+!!! tip "Prefer the Song Editor"
+    For almost everything below — arrangements, tempo, sections, stems, and
+    metadata — the [Song Editor](../plugins/editor.md) is faster and safer than
+    hand-editing, and it validates and rebuilds the pack for you.
 
 ## Before You Start
 
@@ -18,6 +25,7 @@ Short answer: advanced users can author or edit feedpak files by changing the ma
 
 ## Related Links
 
+- [Song Editor](../plugins/editor.md)
+- [Importing Tabs and Editing Arrangements](importing-tabs-editor.md)
 - feedpak spec: https://got-feedback.github.io/feedpak-spec/
 - hand-editing guide: https://github.com/got-feedback/feedpak-spec
-

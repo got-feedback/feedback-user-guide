@@ -50,6 +50,12 @@ Each plugin card should include:
 | Song Preview | Preview songs from library cards. | Available | [Song Preview](song-preview.md) |
 | Update Manager | Install, update, and remove plugins. | Available | [Update Manager](update-manager.md) |
 
+## Authoring
+
+| Plugin | Purpose | Status | Guide |
+|---|---|---|---|
+| Song Editor | Turn a recording or an imported tab into a playable arrangement: chart notes, map tempo, add tracks and drums, and build a feedpak. | Available | [Song Editor](editor.md) |
+
 ## Audio and Production
 
 | Plugin | Purpose | Status | Guide |
